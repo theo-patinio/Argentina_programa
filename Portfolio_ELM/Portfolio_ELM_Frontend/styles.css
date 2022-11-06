@@ -128,10 +128,6 @@ a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
-
-
 .pastillas{
     display: block;
     text-align: center;
@@ -142,6 +138,17 @@ a {
     font-size: 1rem;
     background-color: var(--color-azul1);
 }    
+
+.acerca_edit{
+    display: none;
+}
+
+.contact_edit{
+    display: block;
+}
+
+
+
 
  /* ----TABLET---- */
 @media (min-width: 700px){
