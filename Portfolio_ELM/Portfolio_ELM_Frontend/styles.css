@@ -15,7 +15,7 @@ body{
     max-width: 1000px;
     margin-left:auto;
     margin-right: auto;
-    box-shadow: 5px 0px 20px 0px black; 
+    box-shadow: 5px 0px 20px 0px black;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-azul1);
     padding:  0;
@@ -134,18 +134,19 @@ a {
     justify-content: center;
     min-height:fit-content;
     padding: 0rem;
-  
+
     font-size: 1rem;
     background-color: var(--color-azul1);
-}    
+}
 
 .acerca_edit{
     display: none;
 }
 
 .contact_edit{
-    display: block;
+    display: none;
 }
+
 
 
 
@@ -157,8 +158,8 @@ a {
     }
     .overlay h3{
         font-size: 2.2rem;
-    } 
-    
+    }
+
 }
 
 /* ----DESKTOP---- */
@@ -177,7 +178,7 @@ a {
      }
 }
 
- 
+
 
 
 
