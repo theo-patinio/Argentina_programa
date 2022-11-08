@@ -2,7 +2,7 @@
     const contenedor_estudios = document.querySelector(".edu_main");
     const estudios_list = [];
     estudios_list.push({
-        icon: "/Portfolio_ELM_Frontend/img/ENET_17.jpg",
+        icon: "/Portfolio_ELM/Portfolio_ELM_Frontend/img/ENET_17.jpg",
         icon_link: "https://frika.com.ar",
         Description: `Escuela de Educación Técnica Nro 17 Cornelio Saavedra. Floresta - Buenos Aires - Argentina.
     Orientacion construccion. Titulo obtenido Maestro Mayor de Obras.`

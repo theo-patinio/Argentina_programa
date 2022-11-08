@@ -8,7 +8,7 @@ exp.push({
     Description:"Realizacion de pagina web con e-commerce. Diseño de arquitectura, incluyendo SEO y Pixel de Facebook para relacionar el e-commerce con las redes sociales de la empresa.Mantenimiento y actualizaciones de productos, precios, cambios de temporada."
 });
 exp.push({
-    imagen:"/Portfolio_ELM_Frontend/img/wiki.png",
+    imagen:"/Portfolio_ELM/Portfolio_ELM_Frontend/img/wiki.png",
     img_link: "https://www.wikipedia.com",
     Description:"Clon de pagina principal de Wikipedia. Trabajo practico para aplicar primeros conocimientos en HTML, CSS, y JavaScript."
 });
