@@ -5,7 +5,7 @@
   let btn_edit_acerca = document.getElementById("btn_edit_acerca");
   let btn_enviar_text = document.getElementById("btn_enviar_text");
   let acerca_text = document.getElementById("acerca_text")
-  let acerca = document.getElementById("acerca")
+
 
 
    btn_edit_contact.addEventListener("click", mostrar_edit_contact);
@@ -14,15 +14,13 @@
 
    function mostrar_edit_contact() {
        contact_edit.classList.toggle("contact_edit");
-       console.log("boton edicio")
     }
    function mostrar_edit_acerca() {
     acerca_edit.classList.toggle("acerca_edit");
-    console.log("boton acerca")
     }
 
     function editar_text_acerca() {
-      acerca.innerText = "hola";
+      acerca_text.innerText = "hola";
     }
 
 
