@@ -18,6 +18,6 @@
         console.log("boton acerca");
     }
     function editar_text_acerca() {
-        acerca.innerText = "hola";
+        acerca.innerText = "";
     }
 })();
