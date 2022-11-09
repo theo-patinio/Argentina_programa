@@ -15,6 +15,7 @@
         acerca_edit.classList.toggle("acerca_edit");
     }
     function editar_text_acerca() {
-        acerca_text.innerText = "hola";
+        let new_text = document.getElementById("new_text").value;
+        acerca_text.innerText = new_text;
     }
 })();
