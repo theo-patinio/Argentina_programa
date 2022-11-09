@@ -1,6 +1,6 @@
 (() => {
     const contenedor_estudios = document.querySelector(".edu_main");
-    const estudios_list = [];
+    let estudios_list = [];
     estudios_list.push({
         icon: "/Portfolio_ELM/Portfolio_ELM_Frontend/img/ENET_17.jpg",
         icon_link: "https://frika.com.ar",
