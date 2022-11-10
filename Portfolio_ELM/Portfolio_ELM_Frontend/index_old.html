@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ELM Portfolio</title>
+    <title>ELM Portfolio_ELM_Frontend</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="/Portfolio_ELM/Portfolio_ELM_Frontend/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
 
   </head>
 
@@ -126,35 +127,12 @@
           <div class="col">
             <div class="card text-end  info_personal">
               <div class="card-body ">
-
                 <h3 class="card-title">Contacto</h3>
-                <a class="fa-solid fa-pen-to-square fa-xl " id="btn_edit_contact"></a>
-
                 <p class="card-text ">
-                  <a class="fs-5" href="mailto:theo@frika.com.ar" target="_blank" rel="noopener noreferrer" id="mail">Mail: theo@frika.com.ar</a><br>
-                  <a class="fs-5" href="#" id="telefono">Telefono/WS: +54 011 5866-5752</a><br>
-                  <a class="fs-5" href="https://www.instagram.com/theo.patinio/" target="_blank" rel="noopener noreferrer" id="instagram">IG: @theo.patinio</a>
+                  <a class="fs-5" href="mailto:theo@frika.com.ar" target="_blank" rel="noopener noreferrer">Mail: theo@frika.com.ar</a><br>
+                  <a class="fs-5" href="#">Telefono/WS: +54 011 5866-5752</a><br>
+                  <a class="fs-5" href="https://www.instagram.com/theo.patinio/" target="_blank" rel="noopener noreferrer">IG: @theo.patinio</a>
                 </p>
-
-                <div class="contact_edit">
-                  <div class="input-group input-group-lg mb-3">
-                    <span class="input-group-text" id="basic-addon1">Mail</span>
-                    <input type="text" class="form-control" placeholder="Nuevo Mail" aria-label="Username" aria-describedby="basic-addon1" id="new_mail">
-                  </div>
-                  <div class="input-group input-group-lg mb-3">
-                    <span class="input-group-text" id="basic-addon1">Telefono</span>
-                    <input type="text" class="form-control" placeholder="Nuevo telefono" aria-label="Username" aria-describedby="basic-addon1" id="new_telefono">
-                  </div>
-                  <div class="input-group input-group-lg mb-3">
-                    <span class="input-group-text" id="basic-addon1">IG</span>
-                    <input type="text" class="form-control" placeholder="Instagram" aria-label="Username" aria-describedby="basic-addon1" id="new_instagram">
-                  </div>
-                  <input class="btn btn-primary" type="submit" value="Enviar" id="btn_enviar_contact">
-                </div>
-
-
-
-
               </div>
             </div>
           </div>
@@ -165,22 +143,18 @@
       <div  >
         <!-- ----------ACA COMIENZA Acerca de...----------- -->
 
-        <div id="contenedor_acerca" class="container-fluid p-5  fs-4">
+        <div id="sarlanga" class="container-fluid p-5  fs-4">
 
-          <div class="row  p-3 exp">
+          <div class="row  p-3 contenedor_acerca exp">
             <div class="col text-center ">
-              <a class="fa-solid fa-pen-to-square fa-mb " id="btn_edit_acerca"></a>
               <h1>ACERCA DE...</h1>
             </div>
-            <span id="acerca_text">Aca va quien soy yo, una breve descripcion de mi persona, mis habilidades y virtudes</span>
+            <span>Aca va quien soy yo, una breve descripcion de mi persona, mis habilidades y virtudes</span>
 
 
             <div class="input-group-lg acerca_edit">
               <span class="input-group-text">Editar Info</span>
-
-                <textarea class="form-control " aria-label="With textarea" id="new_text"></textarea>
-
-              <input class="btn btn-primary" type="submit" value="Enviar" id="btn_enviar_text">
+              <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
           </div>
 
@@ -311,15 +285,10 @@
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-<script src=" /Portfolio_ELM/Portfolio_ELM_Frontend/scripts.js"></script>
-<script src=" /Portfolio_ELM/Portfolio_ELM_Frontend/compilado/estudios.js"></script>
-<script src=" /Portfolio_ELM/Portfolio_ELM_Frontend/experiencia.js"></script>
-<script src=" /Portfolio_ELM/Portfolio_ELM_Frontend/Compilado/edits.js"></script>
-<script src="https://kit.fontawesome.com/0d244d67bf.js" crossorigin="anonymous"></script>
+<script src="/Portfolio_ELM/Portfolio_ELM_Frontend/scripts.js"></script>
+<script src="/Portfolio_ELM/Portfolio_ELM_Frontend/compilado/estudios.js"></script>
+<script src="/Portfolio_ELM/Portfolio_ELM_Frontend/experiencia.js"></script>
 
 </body>
 </main>

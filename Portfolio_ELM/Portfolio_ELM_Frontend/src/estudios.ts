@@ -1,9 +1,12 @@
-(()=>{
+const contenedor_estudios = document.querySelector(".edu_main");
 
+fetch('/Portfolio_ELM/Portfolio_ELM_Frontend/datos.json')
+  .then(response => response.json())
+  .then(data => {
+    cargar_estudios(data.estudios_list);
+  })
 
-  const contenedor_estudios = document.querySelector(".edu_main");
-
-  let estudios_list= []
+/*   let estudios_list= []
 
 
    estudios_list.push({
@@ -25,11 +28,10 @@ estudios_list.push({
 
 
 console.log(estudios_list)
+ */
 
-cargar_estudios(estudios_list);
-
-function cargar_estudios(array){
-for (estudio of array){
+function cargar_estudios(array) {
+  for (estudio of array) {
 
     const card_estudio = document.createElement("div");
     card_estudio.classList.add("row", "contenedor_estudios", "p-3");
@@ -37,10 +39,7 @@ for (estudio of array){
     const contenedor_logo = document.createElement("div");
     contenedor_logo.classList.add("col-3", "text-center");
 
-
-
-
-    const ancla=document.createElement("a");
+    const ancla = document.createElement("a");
     ancla.setAttribute("href", estudio.icon_link);
     ancla.setAttribute("rel", "noopener noreferrer");
 
@@ -59,11 +58,11 @@ for (estudio of array){
 
     contenedor_p.appendChild(Description)
 
-    card_estudio.append(contenedor_logo,contenedor_p)
+    card_estudio.append(contenedor_logo, contenedor_p)
     contenedor_estudios.appendChild(card_estudio)
   }
 }
 
 
 
-})();
+
