@@ -2,7 +2,7 @@ const contenedor_experiencia = document.querySelector(".exp_main");
 
 
 
-fetch('/Portfolio_ELM/Portfolio_ELM_Frontend/datos.json')
+fetch('/Portfolio_ELM_Frontend/datos.json')
   .then(response => response.json())
   .then(data=>{
     cargar_exp(data.exp);

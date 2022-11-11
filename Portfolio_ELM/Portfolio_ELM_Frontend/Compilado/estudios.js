@@ -1,5 +1,5 @@
 const contenedor_estudios = document.querySelector(".edu_main");
-fetch('/Portfolio_ELM/Portfolio_ELM_Frontend/datos.json')
+fetch('/Portfolio_ELM_Frontend/datos.json')
     .then(response => response.json())
     .then(data => {
     cargar_estudios(data.estudios_list);
