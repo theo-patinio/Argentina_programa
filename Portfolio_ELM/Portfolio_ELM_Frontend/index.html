@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <main data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" class="scrollspy " tabindex="60"
+  <main data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" class="scrollspy " tabindex="0"
     data-bs-offset="0">
 
     <header class="fixed-top ">
@@ -97,8 +97,7 @@
             <img src="/Portfolio_ELM_Frontend/img/LIg4I.png" class="d-block w-100 " alt="VScode image">
           </div>
           <div class="carousel-item img_carusel banner">
-            <img src="/Portfolio_ELM_Frontend/img/JavaScript.jpg" class="d-block w-100 "
-              alt="JavaScript image">
+            <img src="/Portfolio_ELM_Frontend/img/JavaScript.jpg" class="d-block w-100 " alt="JavaScript image">
           </div>
         </div>
         <div class="overlay p-0 container_soy_yo  ">
@@ -327,6 +326,17 @@
     <script src=" /Portfolio_ELM_Frontend/experiencia.js"></script>
     <script src=" /Portfolio_ELM_Frontend/Compilado/edits.js"></script>
     <script src="https://kit.fontawesome.com/0d244d67bf.js" crossorigin="anonymous"></script>
+
+    <!-- solucion a scrollspy offset -->
+    <script>
+      var offset = 60;
+
+      $('.navbar li a').click(function (event) {
+        event.preventDefault();
+        $($(this).attr('href'))[0].scrollIntoView();
+        scrollBy(0, -offset);
+      });
+    </script>
 
 </body>
 </main>
