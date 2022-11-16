@@ -2,16 +2,11 @@ const contenedor_experiencia = document.querySelector(".exp_main");
 
 
 
-fetch('/Portfolio_ELM_Frontend/datos.json')
-  .then(response => response.json())
-  .then(data=>{
-    cargar_exp(data.exp);
-  })
 
 /* const exp = [];
 
 exp.push({
-    imagen:"https://www.frikaropalinda.com.ar/wp-content/uploads/2020/04/logo-frikanegro-e1591549798726-87x63.png",
+  imagen:"https://www.frikaropalinda.com.ar/wp-content/uploads/2020/04/logo-frikanegro-e1591549798726-87x63.png",
     img_link: "https://frika.com.ar",
     Description:"Realizacion de pagina web con e-commerce. Diseño de arquitectura, incluyendo SEO y Pixel de Facebook para relacionar el e-commerce con las redes sociales de la empresa.Mantenimiento y actualizaciones de productos, precios, cambios de temporada."
 });
@@ -28,6 +23,11 @@ exp.push({
  */
 
 
+fetch('/Portfolio_ELM_Frontend/datos.json')
+  .then(response => response.json())
+  .then(data=>{
+    cargar_exp(data.exp);
+  })
 
 function cargar_exp(array) {
   for (experiencia of array) {
