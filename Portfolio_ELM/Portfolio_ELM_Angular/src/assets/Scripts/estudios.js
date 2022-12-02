@@ -1,9 +1,10 @@
 const contenedor_estudios = document.querySelector(".edu_main");
-fetch('/Portfolio_ELM_Angular/src/app/datos.json')
+fetch('./Portfolio_ELM_Angular/src/app/datos.json')
     .then(response => response.json())
     .then(data => {
     cargar_estudios(data.estudios_list);
 });
+console.log("estoy levantando el script")
 /*   let estudios_list= []
 
 

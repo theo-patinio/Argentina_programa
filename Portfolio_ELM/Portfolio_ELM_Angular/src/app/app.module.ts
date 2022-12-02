@@ -24,7 +24,7 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
