@@ -35,5 +35,12 @@
       "icon_link": "https://frika.com.ar",
       "Description": "Argentina Programa es un programa para acceder a capacitaciones gratuitas en tres áreas: programación, testing y habilidades digitales."
     }
+  ],
+  
+  "info":[
+    {
+      "telefono": "011 5866-5752",
+      "IG": "@theo.patinio"
+    }
   ]
 }

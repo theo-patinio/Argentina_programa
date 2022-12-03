@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
   selector: 'app-info-cabecera',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoCabeceraComponent implements OnInit {
 
-  constructor() { }
+  constructor(private datos:PortfolioService) { }
 
   ngOnInit(): void {
+    this.datos.cargardatos();
   }
 
 }

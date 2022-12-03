@@ -6,4 +6,7 @@ import { Injectable } from '@angular/core';
 export class PortfolioService {
 
   constructor() { }
+  cargardatos(){
+    console.log("Hola");
+  }
 }

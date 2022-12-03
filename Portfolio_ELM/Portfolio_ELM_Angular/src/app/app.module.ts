@@ -9,6 +9,7 @@ import { AcercaComponent } from './components/acerca/acerca.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,13 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
     AcercaComponent,
     ExperienciaComponent,
     EstudiosComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]
