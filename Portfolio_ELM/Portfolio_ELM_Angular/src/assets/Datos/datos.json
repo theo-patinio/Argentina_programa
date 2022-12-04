@@ -1,9 +1,10 @@
 {
-  "exp": [
+  "expList": [
     {
       "imagen": "https://www.frikaropalinda.com.ar/wp-content/uploads/2020/04/logo-frikanegro-e1591549798726-87x63.png",
+      "hola": "Hola",
       "img_link": "https://frika.com.ar",
-      "Description": "Realizacion de pagina web con e-commerce. Diseño de arquitectura, incluyendo SEO y Pixel de Facebook para relacionar el e-commerce con las redes sociales de la empresa.Mantenimiento y actualizaciones de productos, precios, cambios de temporada."
+      "Description": "Micro empresa dedicada al diseño, confeccion y comercialización de indumentaria femenina. <br> Habilidades aplicadas <br>*Diseño de moldería con Optitex. <br>*Cotización de productos.<br>*Diseño de 'tizada' y corte. <br>*Estampado <br>*Coordinación con talleres de costura. <br>*Gerencia administrativa. <br>*Gestion de E-commerce <br>*Creación de sitio web con Wordpress <br>*Buen manejo de Microsoft Office (Word, Excell) "
     },
     {
       "imagen": "./assets/img/wiki.png",

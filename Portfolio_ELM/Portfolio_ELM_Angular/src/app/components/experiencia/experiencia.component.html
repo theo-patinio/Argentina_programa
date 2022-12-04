@@ -6,24 +6,21 @@
     </div>
   </div>
 
-  <div class="exp_main exp">
-    <div class="row  p-3 ">
+  <ul class="exp_main exp">
+    <li *ngFor="let exp of expList"   class="row  p-3 ">
       <div class="col-3 text-center ">
           <a href="https://www.frikaropalinda.com.ar" target="_blank" rel="noopener noreferrer">
-              <img src="https://www.frikaropalinda.com.ar/wp-content/uploads/2020/04/logo-frikanegro-e1591549798726-87x63.png" class="img-thumbnail" alt="...">
+              <img [src]="exp.imagen" class="img-thumbnail" alt="...">
           </a>
       </div>
 
       <div class="col-9">
-          <p>Realizacion de pagina web con e-commerce. <br>
-              Diseño de arquitectura, incluyendo SEO y Pixel de Facebook para relacionar el e-commerce con las redes sociales de la empresa. <br>
-              mantenimiento y actualizaciones de productos, precios, cambios de temporada.
-          </p>
+          <p>{{exp.hola}}</p>
       </div>
-  </div>
+  </li >
 
 
 
-  </div>
+</ul>
 
 </div>
