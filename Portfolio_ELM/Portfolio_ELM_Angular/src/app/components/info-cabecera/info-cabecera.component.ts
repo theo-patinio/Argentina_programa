@@ -8,10 +8,15 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 })
 export class InfoCabeceraComponent implements OnInit {
 
-  constructor(private datos:PortfolioService) { }
+  constructor( private datos:PortfolioService) { }
+  dataPortfolio:any
+
 
   ngOnInit(): void {
-    this.datos.cargardatos();
+    this.datos.cargardatos().subscribe(data =>{
+      this.dataPortfolio = data;
+    
+    });
   }
 
 }
