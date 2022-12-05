@@ -9,13 +9,18 @@
   <ul class="exp_main exp">
     <li *ngFor="let exp of expList"   class="row  p-3 ">
       <div class="col-3 text-center ">
-          <a href="https://www.frikaropalinda.com.ar" target="_blank" rel="noopener noreferrer">
+          <a [href]="exp.img_link" target="_blank" rel="noopener noreferrer">
               <img [src]="exp.imagen" class="img-thumbnail" alt="...">
           </a>
       </div>
 
       <div class="col-9">
-          <p>{{exp.hola}}</p>
+          <p><strong>{{exp.periodo}}</strong> </p>
+          <p>{{exp.Description}}</p>
+          <p>{{exp.Description1}}</p>
+          <p>{{exp.Description2}}</p>
+          <p>{{exp.Description3}}</p>
+          <p>{{exp.Description4}}</p>
       </div>
   </li >
 

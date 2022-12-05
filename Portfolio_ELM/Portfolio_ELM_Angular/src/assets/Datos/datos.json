@@ -2,17 +2,33 @@
   "expList": [
     {
       "imagen": "https://www.frikaropalinda.com.ar/wp-content/uploads/2020/04/logo-frikanegro-e1591549798726-87x63.png",
-      "hola": "Hola",
+      "periodo": "2009 - actual",
       "img_link": "https://frika.com.ar",
-      "Description": "Micro empresa dedicada al diseño, confeccion y comercialización de indumentaria femenina. <br> Habilidades aplicadas <br>*Diseño de moldería con Optitex. <br>*Cotización de productos.<br>*Diseño de 'tizada' y corte. <br>*Estampado <br>*Coordinación con talleres de costura. <br>*Gerencia administrativa. <br>*Gestion de E-commerce <br>*Creación de sitio web con Wordpress <br>*Buen manejo de Microsoft Office (Word, Excell) "
+      "Description": "Micro empresa dedicada al diseño, confeccion y comercialización de indumentaria femenina.  ",
+      "Description1": "Habilidades aplicadas  ",
+      "Description2": "*Diseño de moldería con Optitex. *Cotización de productos. *Diseño de 'tizada' y corte. *Estampado *Coordinación con talleres de costura. *Gerencia administrativa. *Gestion de E-commerce *Creación de sitio web con Wordpress *Buen manejo de Microsoft Office (Word, Excell) "
+    },
+    {
+      "imagen": "http://tankcoating.com.ar/img/logo.jpg",
+      "periodo": "2004 - 2009",
+      "img_link": "http://tankcoating.com.ar/",
+      "Description": "En esta empresa me desarrolle como responsable de la gestión administrativa de la misma, coordinando el trabajo de un equipo de colaboradores para llevar adelante todas las tareas inherentes a la administración de una Pyme, desde cuentas bancarias, asientos contables, control y administración de 'Cajas de Obra', Compras, Facturacion, Cta cte de clientes y Proveedores, liquidaciones de salarios, etc ."
+    },
+    {
+      "imagen": "https://www.sinteplast.com.ar/images/lg_sinteplast_RGB.svg",
+      "periodo": "1990 - 1997",
+      "img_link": "https://www.sinteplast.com.ar/",
+      "Description": "Encargado de compras de no productivos (Mantenimiento, Envases, Maquinaria, Herramientos, y todo insumo que no fuera 'Componente' de los productos)."
     },
     {
       "imagen": "./assets/img/wiki.png",
+      "periodo": "2009 - actual",
       "img_link": "https://www.wikipedia.com",
       "Description": "Clon de pagina principal de Wikipedia. Trabajo practico para aplicar primeros conocimientos en HTML, CSS, y JavaScript."
     },
     {
       "imagen": "https://www.globant.com/themes/custom/globant_corp_theme/images/2019/globant-logo-dark.svg",
+      "periodo": "2009 - actual",
       "img_link": "https://www.globant.com/",
       "Description": "Debo confesar que nunca trabajé en esta compania, pero me encantaría. Se que tengo los conocimientos y Habilidades necesarios y gran capacidad de trabajo en equipo.  Espero su llamado !"
     }
@@ -37,7 +53,7 @@
       "Description": "Argentina Programa es un programa para acceder a capacitaciones gratuitas en tres áreas: programación, testing y habilidades digitales."
     }
   ],
-  
+
   "info":[
     {
       "telefono": "011 5866-5752",
@@ -47,6 +63,7 @@
 
   "soy_yo": "./assets/img/My project.png",
   "imgBanner1":"./assets/img/JavaScript.jpg",
-  "imgBanner2":"./assets/img/LIg4I.png"
+  "imgBanner2":"./assets/img/LIg4I.png",
+  "acerca_de": "Aca es donde digo lo maravilloso que soy yo"
 
 }

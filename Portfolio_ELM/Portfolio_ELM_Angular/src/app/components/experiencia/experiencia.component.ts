@@ -13,7 +13,8 @@ export class ExperienciaComponent implements OnInit {
 
   ngOnInit(): void {
     this.datos.cargardatos().subscribe(data => {
-      this.expList = data.explist;
+      this.expList = data.expList;
+      console.log(data.expList);
 
     });
   }
