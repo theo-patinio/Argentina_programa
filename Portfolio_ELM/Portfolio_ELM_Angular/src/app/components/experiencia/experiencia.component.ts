@@ -7,15 +7,13 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./experiencia.component.scss']
 })
 export class ExperienciaComponent implements OnInit {
-  expList: any;
 
   constructor(private datos: PortfolioService) { }
+  expList: any;
 
   ngOnInit(): void {
     this.datos.cargardatos().subscribe(data => {
       this.expList = data.expList;
-      console.log(data.expList);
-
     });
   }
 }
