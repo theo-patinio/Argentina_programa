@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AcercaComponent implements OnInit {
 
+  display = "none";
+
+  mostrar_edit_acerca() {
+    this.display = "block";
+  }
+  ocultar_edit_acerca() {
+    this.display = "none";
+  }
+
+
+
+
   constructor() { }
 
   ngOnInit(): void {

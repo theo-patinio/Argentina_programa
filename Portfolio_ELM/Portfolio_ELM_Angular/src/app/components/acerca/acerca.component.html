@@ -2,7 +2,7 @@
 
   <div class="row  p-3 exp">
     <div class="col text-center ">
-      <a class="fa-solid fa-pen-to-square fa-mb " id="btn_edit_acerca"></a>
+      <a class="fa-solid fa-pen-to-square fa-mb " id="btn_edit_acerca" (click)="mostrar_edit_acerca()"></a>
       <h1>ACERCA DE...</h1>
     </div>
     <span id="acerca_text">Aca va quien soy yo, una breve descripcion de mi persona, mis habilidades y
@@ -13,12 +13,13 @@
 
 
 
-    <div class="input-group-lg acerca_edit">
+    <div class="input-group-lg acerca_edit" id="acerca_edit" [style.display]="display">
       <span class="input-group-text">Editar Info</span>
 
       <textarea class="form-control " aria-label="With textarea" id="new_text"></textarea>
 
-      <input class="btn btn-primary" type="submit" value="Enviar" id="btn_enviar_text">
+      <input class="btn btn-primary" type="submit" value="Enviar" id="btn_enviar_text" (click)="ocultar_edit_acerca()">
+      <input class="btn btn-primary" type="submit" value="Cancelar" id="btn_enviar_text" (click)="ocultar_edit_acerca()">
     </div>
   </div>
 

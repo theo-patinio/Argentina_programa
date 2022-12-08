@@ -14,17 +14,21 @@
         <div class="card-body ">
 
           <h3 class="card-title">Contacto</h3>
-          <a class="fa-solid fa-pen-to-square fa-xl " id="btn_edit_contact"></a>
+          <a class="fa-solid fa-pen-to-square fa-xl " id="btn_edit_contact" (click)="mostrar_edit_contacto()"></a>
 
           <p class="card-text ">
             <a class="fs-5" href="mailto:theo@frika.com.ar" target="_blank" rel="noopener noreferrer"
-              id="mail">Mail: theo@frika.com.ar</a><br>
-            <a class="fs-5" href="#" id="telefono">Telefono/WS: +54 011 5866-5752</a><br>
+              id="mail">Mail: {{dataPortfolio.mail}}</a><br>
+            <a class="fs-5" href="#" id="telefono">Telefono/WS: {{dataPortfolio.telefono}}</a><br>
             <a class="fs-5" href="https://www.instagram.com/theo.patinio/" target="_blank" rel="noopener noreferrer"
-              id="instagram">IG: @theo.patinio</a>
+              id="instagram">
+              IG: {{dataPortfolio.IG}}
+             </a>
           </p>
 
-          <div class="contact_edit">
+          <!-- Editar -->
+
+          <div class="contact_edit" [style.display]="display">
             <div class="input-group input-group-lg mb-3">
               <span class="input-group-text" id="basic-addon1">Mail</span>
               <input type="text" class="form-control" placeholder="Nuevo Mail" aria-label="Username"
@@ -40,7 +44,8 @@
               <input type="text" class="form-control" placeholder="Instagram" aria-label="Username"
                 aria-describedby="basic-addon1" id="new_instagram">
             </div>
-            <input class="btn btn-primary" type="submit" value="Enviar" id="btn_enviar_contact">
+            <input class="btn btn-primary" type="submit" value="Enviar" id="btn_enviar_contact" (click)="ocultar_edit_contacto()">
+            <input class="btn btn-primary" type="submit" value="Cancelar" id="btn_enviar_contact" (click)="ocultar_edit_contacto()">
           </div>
 
 

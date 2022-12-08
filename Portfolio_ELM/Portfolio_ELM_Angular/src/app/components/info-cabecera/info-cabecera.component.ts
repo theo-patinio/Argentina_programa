@@ -8,6 +8,19 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 })
 export class InfoCabeceraComponent implements OnInit {
 
+  display = "none";
+
+  mostrar_edit_contacto() {
+    this.display = "block";
+  }
+  ocultar_edit_contacto() {
+    this.display = "none";
+  }
+
+
+
+
+
   constructor( private datos:PortfolioService) { }
   dataPortfolio:any
 
@@ -15,7 +28,7 @@ export class InfoCabeceraComponent implements OnInit {
   ngOnInit(): void {
     this.datos.cargardatos().subscribe(data =>{
       this.dataPortfolio = data;
-    
+
     });
   }
 
