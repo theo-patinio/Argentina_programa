@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
+
 
 @Component({
   selector: 'app-estudios',
@@ -7,11 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EstudiosComponent implements OnInit {
 
-  constructor( ) {
+  constructor(private datos: PortfolioService ) {}
 
-  }
+
+  estudios_list: any;
+
 
   ngOnInit(): void {
+    this.datos.cargardatos().subscribe(data => {
+      this.estudios_list = data.estudios_list;
+    });
   }
 
 }

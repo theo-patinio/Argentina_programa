@@ -19,42 +19,39 @@
       "periodo": "1990 - 1997",
       "img_link": "https://www.sinteplast.com.ar/",
       "Description": "Encargado de compras de no productivos (Mantenimiento, Envases, Maquinaria, Herramientos, y todo insumo que no fuera 'Componente' de los productos)."
-    },
-    {
-      "imagen": "./assets/img/wiki.png",
-      "periodo": "2009 - actual",
-      "img_link": "https://www.wikipedia.com",
-      "Description": "Clon de pagina principal de Wikipedia. Trabajo practico para aplicar primeros conocimientos en HTML, CSS, y JavaScript."
-    },
-    {
-      "imagen": "https://www.globant.com/themes/custom/globant_corp_theme/images/2019/globant-logo-dark.svg",
-      "periodo": "2009 - actual",
-      "img_link": "https://www.globant.com/",
-      "Description": "Debo confesar que nunca trabajé en esta compania, pero me encantaría. Se que tengo los conocimientos y Habilidades necesarios y gran capacidad de trabajo en equipo.  Espero su llamado !"
     }
   ],
-
-
-
   "estudios_list": [
     {
-      "icon": "/Portfolio_ELM_Frontend/img/ENET_17.jpg",
+      "icon": "https://media-exp1.licdn.com/dms/image/C560BAQGv-Dd7A2pQ0g/company-logo_200_200/0/1646458288684?e=2147483647&v=beta&t=2bEkW38L80hsKUeV4gucwORSlBcJNmYd5H6CBz_Z00E",
       "icon_link": "https://frika.com.ar",
-      "Description":"Escuela de Educación Técnica Nro 17 Cornelio Saavedra. Floresta - Buenos Aires - Argentina. Orientacion construccion. Titulo obtenido Maestro Mayor de Obras."
+      "institucion": "Argentina Programa",
+      "periodo": "2022 - actual",
+      "carrera": "Desarrollo FullStack",
+      "Description": "Argentina Programa es un programa para acceder a capacitaciones gratuitas en tres áreas: programación, testing y habilidades digitales."
     },
     {
       "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Platzi.jpg/1200px-Platzi.jpg",
       "icon_link": "https://frika.com.ar",
-      "Description": "Platzi es una plataforma latinoamericana de educación en línea.​ Fue fundada en 2014 por el ingeniero colombiano Freddy Vega y por el informático guatemalteco Christian Van Der Henst. "
+      "institucion": "Platzi",
+      "periodo": "2020 - actual",
+      "carrera": "Desarrollo WEB",
+      "Description": "Platzi es una plataforma latinoamericana de educación en línea.​ Fue fundada en 2014 por el ingeniero colombiano Freddy Vega y por el informático guatemalteco Christian Van Der Henst. ",
+      "Description1": "*Curso Fundamentos de HTML y CSS. ",
+      "Description2": "*Curso Practico de HTML y CSS. ",
+      "Description3": "*Curso Bootstrap 4/5. ",
+      "Description4": "*Curso Fundamentos de bases de datos con MySQL. "
     },
     {
-      "icon": "https://media-exp1.licdn.com/dms/image/C560BAQGv-Dd7A2pQ0g/company-logo_200_200/0/1646458288684?e=2147483647&v=beta&t=2bEkW38L80hsKUeV4gucwORSlBcJNmYd5H6CBz_Z00E",
+      "icon": "./assets/img/ENET_17.jpg",
       "icon_link": "https://frika.com.ar",
-      "Description": "Argentina Programa es un programa para acceder a capacitaciones gratuitas en tres áreas: programación, testing y habilidades digitales."
+      "institucion": "ENET 17 Cornelio Saavedra",
+      "periodo": "1982 - 1988",
+      "carrera": "Secundario Técnico (Titulo obtenido Maestro Mayor de Obras).",
+      "Description": "Escuela de Educación Técnica Nro 17 Cornelio Saavedra. Floresta - Buenos Aires - Argentina. Orientacion construccion. "
     }
   ],
-
-  "info":[
+  "info": [
     {
       "telefono": "011 5866-5752",
       "IG": "@theo.patinio"
@@ -62,12 +59,10 @@
   ],
   "telefono": "+54 011 5866-5752",
   "IG": "@theo.patinio",
-  "mail":"theo@frika.com.ar",
-
-
+  "mail": "theo@frika.com.ar",
   "soy_yo": "./assets/img/My project.png",
-  "imgBanner1":"./assets/img/JavaScript.jpg",
-  "imgBanner2":"./assets/img/LIg4I.png",
-  "acerca_de": "Aca es donde digo lo maravilloso que soy yo"
-
+  "imgBanner1": "./assets/img/JavaScript.jpg",
+  "imgBanner2": "./assets/img/LIg4I.png",
+  "acerca_de": "Aca es donde digo lo maravilloso que soy yo",
+  "cerebro": "./assets/img/cerebro.png"
 }

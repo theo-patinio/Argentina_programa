@@ -9,6 +9,8 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 export class ExperienciaComponent implements OnInit {
 
   constructor(private datos: PortfolioService) { }
+
+
   expList: any;
 
   ngOnInit(): void {

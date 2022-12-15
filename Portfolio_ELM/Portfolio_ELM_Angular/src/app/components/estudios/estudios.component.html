@@ -5,7 +5,41 @@
       <h1>ESTUDIOS</h1>
     </div>
   </div>
-  <div class="edu_main "> </div>
+
+
+    <ul class="edu_main exp">
+      <li *ngFor="let estudio of estudios_list"   class="row  p-3 ">
+        <div class="col-3 text-center ">
+            <a [href]="estudio.icon_link" target="_blank" rel="noopener noreferrer">
+                <img [src]="estudio.icon" class="img-thumbnail" alt="...">
+            </a>
+        </div>
+
+        <div class="col-9">
+          <p class="titulo"><strong>{{estudio.institucion}}</strong> </p>
+          <p>{{estudio.carrera}} </p>
+            <p><strong>{{estudio.periodo}}</strong> </p>
+            <p class="description" >{{estudio.Description}}</p>
+            <p class="description" >{{estudio.Description1}}</p>
+            <p class="description" >{{estudio.Description2}}</p>
+            <p class="description" >{{estudio.Description3}}</p>
+            <p class="description" >{{estudio.Description4}}</p>
+        </div>
+    </li >
+
+
+
+  </ul>
+
+
+
+
+
+
+
+
+
+
 
 
 

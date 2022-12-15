@@ -17,10 +17,6 @@ export class InfoCabeceraComponent implements OnInit {
     this.display = "none";
   }
 
-
-
-
-
   constructor( private datos:PortfolioService) { }
   dataPortfolio:any
 

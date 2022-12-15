@@ -7,7 +7,7 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./encabezado.component.scss']
 })
 export class EncabezadoComponent implements OnInit {
-  
+
 
   constructor(private datos:PortfolioService) { }
   dataPortfolio:any
@@ -16,11 +16,7 @@ export class EncabezadoComponent implements OnInit {
   ngOnInit(): void {
     this.datos.cargardatos().subscribe(data =>{
       this.dataPortfolio = data;
-    
+
     });
   }
-
-
-
-
 }

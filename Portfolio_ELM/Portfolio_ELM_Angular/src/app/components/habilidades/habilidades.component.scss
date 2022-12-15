@@ -1,7 +1,40 @@
-progress{
-  height: 4rem;
+:root{
+  --color-azul1: #6B7CB5;
+  --color-azul2: #5E8EBD;
+  --color-turqueza:#5B94A6;
+  --color-lila: #9FBAB9;
+  --color-violeta:#53B596;
+}
 
+.meter {
+  height: 2rem;
+  width: 15rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  position: relative;
+  background: #f3efe6;
+  overflow: hidden;
+  border-radius: 1rem;
 
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+}
+
+.progress {
+  background-color: var(--color-violeta);
+  animation: progressBar 4s ease-in-out;
+  animation-fill-mode:both;
+}
+
+@keyframes progressBar {
+0% { width: 0; }
+50% { width: 100%; }
+}
+.cerebro{
+  width: 70%;
 }
 
 
